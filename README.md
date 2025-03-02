@@ -112,3 +112,33 @@ Feedback: Provide feedback if the classification is incorrect to improve the mod
 5. Hardware Control
 The system sends commands via the serial port (COM4 by default) to the Arduino/ESP32. Adjust the COM port in main.py if needed.
 
+### Hardware Integration
+
+## With PIR Sensor
+Code File: withPIR.c
+Description: This code uses a PIR sensor to detect motion and control a servo motor based on serial commands ("recyclable" or "non_recyclable").
+Connections:
+Servo connected to GPIO 15.
+PIR sensor connected to GPIO 14.
+Behavior: The servo moves to specific angles based on the classification result received from the Python backend.
+
+
+## Without PIR Sensor
+Code File: withoutPIR.c
+Description: Alternative code that controls a servo motor without using a PIR sensor.
+Connections:
+Servo connected to GPIO 13.
+Behavior: The servo smoothly moves left or right based on the received command and returns to its origin position.
+
+### Screenshots
+
+### Contributing
+Contributions are welcome! If you want to help improve BINCREDIBLE:
+
+Fork the repository.
+Create a new branch for your feature or bugfix.
+Submit a pull request with a clear description of your changes.
+
+### License
+This project is licensed under the MIT License. 
+
