@@ -116,19 +116,25 @@ The system sends commands via the serial port (COM4 by default) to the Arduino/E
 
 ## With PIR Sensor
 Code File: withPIR.c
+
 Description: This code uses a PIR sensor to detect motion and control a servo motor based on serial commands ("recyclable" or "non_recyclable").
+
 Connections:
 Servo connected to GPIO 15.
 PIR sensor connected to GPIO 14.
-Behavior: The servo moves to specific angles based on the classification result received from the Python backend.
+
+Behaviour: The servo moves to specific angles based on the classification result received from the Python backend.
 
 
 ## Without PIR Sensor
 Code File: withoutPIR.c
+
 Description: Alternative code that controls a servo motor without using a PIR sensor.
+
 Connections:
 Servo connected to GPIO 13.
-Behavior: The servo smoothly moves left or right based on the received command and returns to its origin position.
+
+Behaviuor: The servo smoothly moves left or right based on the received command and returns to its origin position.
 
 ### Screenshots
 
