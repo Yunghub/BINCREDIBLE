@@ -57,7 +57,7 @@ automatic_mode = False
 BACKGROUND_SUBTRACTOR = cv2.createBackgroundSubtractorMOG2(history=500, varThreshold=50, detectShadows=True)
 
 # Initialize the classifier and feature extractor
-sgd_classifier = SGDClassifier(loss='hinge', penalty='l2', alpha=0.0001, 
+sgd_classifier = SGDClassifier(loss='hinge', penalty='l2', alpha=0.001, 
                            max_iter=1000, tol=1e-3, class_weight='balanced', 
                            random_state=42, n_jobs=-1)
 scaler = StandardScaler()
