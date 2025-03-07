@@ -1,8 +1,8 @@
-# HackLondon25: BINCREDIBLE (Smart Waste Classification System)
+# HackLondon25 Winner: BINCREDIBLE (Smart Waste Classification System)
 
 An advanced computer vision project developed for HackLondon25 that leverages machine learning and hardware integration for waste classification. The project uses a Flask web server with OpenCV for real-time video streaming, motion detection, and image classification of recyclable vs. non-recyclable items. It also integrates with Arduino/ESP32 to control a servo motor based on classification results.
 
-![BINCREDIBLE](images/5.png)
+![BINCREDIBLE](images/bin.png)
 
 ---
 
