@@ -137,6 +137,7 @@ Servo connected to GPIO 13.
 Behaviuor: The servo smoothly moves left or right based on the received command and returns to its origin position.
 
 ### Screenshots
+![Screenshot](images/web.png)
 
 ### Contributing
 Contributions are welcome! If you want to help improve BINCREDIBLE:
